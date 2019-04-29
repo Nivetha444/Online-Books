@@ -1,0 +1,14 @@
+
+.bg{
+    background-image: url('../Biblio/sb.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    height:auto;
+    max-width: 100%;
+}
+.ab{
+    background-image: url('../Biblio/pp.jpg');
+    background-repeat: no-repeat; 
+    height: 400px;
+}

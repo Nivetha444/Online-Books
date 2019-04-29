@@ -1,0 +1,38 @@
+Javascript:
+
+=> To declare a global variable inside the function use window object called "windows.value"
+=> JavaScript is a dynamic type language, means you don't need to specify type of the variable because it is dynamically used by JavaScript engine.
+=> variables in js is let.
+=> Anything inside a quote is a strings.
+=> The variable name cannot be resused when used with let keyword. Remove let keyword and the variable name can be reused.
+=> In const keyword you cannot change the value. 
+=> === equlity sign will return TRUE if referencing to same objects.
+==> shift() will remove the first element in array.
+==> unshift() will add an element as a first element in array.
+==> splice(2,1,'Something'), 2-> will take the position, 1-> will take the number of elements, 'something' -> will replace the value in that position.
+==> In javascript, when "arrys.length" is given the arrays will be counted from 1. so to get the exact length of array it should be (array.lenght-1).
+==> Variable typing is used to assign a number to a variable and the same variable can be assigned to a string.
+==> To find an element in array use "include".(This is for primitive type).
+==> To find element use "find" for the reference type.
+==> findIndexOf() will get the index of element in the reference type.
+==> To combine two array use "concat". To comnine a particular part of array use "Slice"
+==> "Spread" opertor is more flexible and easy to use.
+==> Two ways to iterate a array is "for loop" and "foreach loop". 
+==> To join a array use "join" or "split" method.(like using a seperator in number or sentences).
+==> "every" will check all the elements in array.
+==> "some" will check the particular elements in array.   
+==> In order to detect the operating system on the client machine, the "navigator.platform string" (property) should be used.
+==>Cookies are the small test files stored in a computer and it gets created when the user visits the websites to store information that they need. Example could be User Name details and shopping cart information from the previous visits.
+==> The 'Navigator.appversion' is used to find the name of the operating system in the client machine. 
+==> function Expression is like declaring a variable with a value, here it is declaring a function      
+==> Typedef(null) is object.
+==> NaN equal to ANYTHING is always false, even when compared to itself.
+==> /g = will match all occurances (i.e) should be tested against all possible matches in string.
+==> If you do not initialize a variable that was declared using the var keyword, it automatically takes on the value undefined.
+==> JavaScript requires that constant variables always be initialized.
+==> For-in : This loop iterates (in an arbitrary order) over the name of each enumerable property in an object, allowing statements to be executed for each distinct property.
+==> For-of : This loop iterates over iterable objects such as an Array, Map, Set, String, TypedArray, arguments object, etc. It essentially iterates over the value of each distinct property in the structure, such as each letter in a word or each element in an array.
+==> Always remember to use the <script> tag below the html code in the body section.
+==> Closure can refer to a variable outside the global scope. Closure points to the common value (i.e) Current Value. It is a function that has access to private variable.
+==> Objects are dynamic nature which means we can create add new properties and delete existing one.
+==> Template literal helps in writing cleaner code (i.e) we can remove '\n' '\b' etc and simply use backtick(``) for the entire code. It prints as it written in editor. 
