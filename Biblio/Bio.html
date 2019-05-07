@@ -25,11 +25,14 @@
                     <a class="nav-link" href="Frontpage.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="About.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+                <li>
+                    <a href="Cart.html"> <i class="fa fa-shopping-cart" style="color:white; padding: 10px; "></i></a>
+                        </li>
             </ul>
         </div>
     </nav>
@@ -53,10 +56,25 @@
         <div class="card-deck">
             <div class="card mt-4">
                 <div class="text-center">
-                    <img class="card-img-top" src="b1.jpg" alt="Card image cap" style="height:250px; width:200px; margin-top:20px;">
+                    <img class="card-img-top" src="Images/b1.jpg" alt="Card image cap" style="height:250px; width:200px; margin-top:20px;">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title text-center">Einstein <i onclick="myFunction(this)" class="fa fa-star"></i></h5>
+                    <h5 class="card-title text-center">Einstein 
+                            <span data-toggle="tooltip" title="Save for later">
+                        <i onclick="bookmark(this)" class="fa fa-bookmark-o"></i>
+                    </span>
+                    </h5>
+                    <div class="col text-center">
+                            <div class="rating">
+                                <span title="Awesome"> 5 star </span>
+                                <span title="Good"> 4 star </span>
+                                <span title="Preety Good"> 3 star </span>
+                                <span  title="Poor"> 2 star </span>
+                                <span title="Bad"> 1 star </span>
+                            </div>
+                    </div>
+                    <br>
+                    <br>
                     <div class="col text-center">
                         <button class="btn btn-primary">Download</button>
                     </div>
@@ -65,10 +83,34 @@
             </div>
             <div class="card mt-4">
                 <div class="text-center">
-                    <img class="card-img-top" src="b2.jpg" alt="Card image cap" style="height:250px; width:200px; margin-top:20px;">
+                    <img class="card-img-top" src="Images/b2.jpg" alt="Card image cap" style="height:250px; width:200px; margin-top:20px;">
+                    <span class="ttip">
+                        <h5 style="padding-top:15px; text-align: left;">Emma Watson: The Biography</h5>
+                        <p style="text-align:left;">By <b>David Nolan</b></p>
+                        <p style="font-size: 13px; text-align: left">Paperback Book,278 Pages</p>
+                        <h6 style="text-align:left;">Description</h6>
+                        <p  style="text-align:left; padding:10px; font-size: 13px;">This book gives a brief descritpion of Emma watson and her life story. 
+                            Her story is on of the most inspiring story one can get.
+                        </p>
+                </span>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title text-center">Emma Watson <i onclick="myFunction(this)" class="fa fa-star"></i> <i onclick="bookmark(this)" class="fa fa-bookmark-o"></i> </h5>
+                    <h5 class="card-title text-center">Emma Watson 
+                            <span data-toggle="tooltip" title="Save for later">
+                        <i onclick="bookmark(this)" class="fa fa-bookmark-o"></i> 
+                        </span>
+                    </h5>
+                    <div class="col text-center">
+                            <div class="rating">
+                                <span title="Awesome"> 5 star </span>
+                                <span title="Good"> 4 star </span>
+                                <span title="Preety Good"> 3 star </span>
+                                <span  title="Poor"> 2 star </span>
+                                <span title="Bad"> 1 star </span>
+                            </div>
+                    </div>
+                    <br>
+                    <br>
                     <div class="col text-center">
                         <button class="btn btn-primary">Download</button>
                     </div>
@@ -77,10 +119,25 @@
             </div>
             <div class="card mt-4">
                 <div class="text-center">
-                    <img class="card-img-top" src="b3.jpg" alt="Card image cap" style="height:250px; width:200px; margin-top:20px;">
+                    <img class="card-img-top" src="Images/b3.jpg" alt="Card image cap" style="height:250px; width:200px; margin-top:20px;">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title text-center">Prince Charles <i onclick="myFunction(this)" class="fa fa-star"></i> <i onclick="bookmark(this)" class="fa fa-bookmark-o"></i></h5>
+                    <h5 class="card-title text-center">Prince Charles 
+                            <span data-toggle="tooltip" title="Save for later">
+                        <i onclick="bookmark(this)" class="fa fa-bookmark-o"></i>
+                    </span>
+                    </h5>
+                    <div class="col text-center">
+                            <div class="rating">
+                                <span title="Awesome"> 5 star </span>
+                                <span title="Good"> 4 star </span>
+                                <span title="Preety Good"> 3 star </span>
+                                <span  title="Poor"> 2 star </span>
+                                <span title="Bad"> 1 star </span>
+                            </div>
+                    </div>
+                    <br>
+                    <br>
                     <div class="col text-center">
                         <button class="btn btn-primary">Download</button>
                     </div>
@@ -90,13 +147,26 @@
             <div class="card mt-4">
                     
                 <div class="text-center">   
-                    <img class="card-img-top" src="b4.jpg" alt="Card image cap" style="height:250px; width:200px;margin-top:20px;">
-                    <span class="badge badge-secondary" style="float:right;">New</span>
-                           
-                         
+                    <img class="card-img-top" src="Images/b4.jpg" alt="Card image cap" style="height:250px; width:200px;margin-top:20px;">
+                    <span class="badge badge-secondary" style="float:right;">New</span>         
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title text-center">Cristiano Ronaldo <i onclick="myFunction(this)" class="fa fa-star"></i></h5>
+                    <h5 class="card-title text-center">Cristiano Ronaldo 
+                            <span data-toggle="tooltip" title="Save for later">
+                        <i onclick="bookmark(this)" class="fa fa-bookmark-o"></i>
+                    </span>
+                    </h5>
+                    <div class="col text-center">
+                            <div class="rating">
+                                <span title="Awesome"> 5 star </span>
+                                <span title="Good"> 4 star </span>
+                                <span title="Preety Good"> 3 star </span>
+                                <span  title="Poor"> 2 star </span>
+                                <span title="Bad"> 1 star </span>
+                            </div>
+                    </div>
+                    <br>
+                    <br>
                     <div class="col text-center">
                         <button class="btn btn-primary">Download</button>
                     </div>
@@ -115,10 +185,25 @@
         <div class="card-deck">
             <div class="card mt-4">
                 <div class="text-center">
-                    <img class="card-img-top" src="b5.jpg" alt="Card image cap" style="height:250px; width:200px;margin-top:20px;">
+                    <img class="card-img-top" src="Images/b5.jpg" alt="Card image cap" style="height:250px; width:200px;margin-top:20px;">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title text-center">Wings of Fire (APJ Abdul Kalam) <i onclick="myFunction(this)" class="fa fa-star"></i></h5>
+                    <h5 class="card-title text-center">Wings of Fire (APJ Abdul Kalam) 
+                            <span data-toggle="tooltip" title="Save for later">
+                        <i onclick="bookmark(this)" class="fa fa-bookmark-o"></i>
+                        </span>
+                    </h5>
+                    <div class="col text-center">
+                            <div class="rating">
+                                <span title="Awesome"> 5 star </span>
+                                <span title="Good"> 4 star </span>
+                                <span title="Preety Good"> 3 star </span>
+                                <span  title="Poor"> 2 star </span>
+                                <span title="Bad"> 1 star </span>
+                            </div>
+                    </div>
+                    <br>
+                    <br>
                     <div class="col text-center">
                         <button class="btn btn-primary">Download</button>
                     </div>
@@ -127,12 +212,26 @@
             </div>
             <div class="card mt-4">
                 <div class="text-center">
-                    <img class="card-img-top" src="b6.jpg" alt="Card image cap"
+                    <img class="card-img-top" src="Images/b6.jpg" alt="Card image cap"
                         style="height:250px; width:200px;margin-top:20px;">
                         <span class="badge badge-secondary" style="float:right;">New</span>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title text-center">Becoming Michelle Obama <i onclick="myFunction(this)" class="fa fa-star"></i></h5>
+                    <h5 class="card-title text-center">Becoming Michelle Obama 
+                            <span data-toggle="tooltip" title="Save for later">
+                        <i onclick="bookmark(this)" class="fa fa-bookmark-o"></i></span>
+                    </h5>
+                    <div class="col text-center">
+                            <div class="rating">
+                                <span title="Awesome"> 5 star </span>
+                                <span title="Good"> 4 star </span>
+                                <span title="Preety Good"> 3 star </span>
+                                <span  title="Poor"> 2 star </span>
+                                <span title="Bad"> 1 star </span>
+                            </div>
+                    </div>
+                    <br>
+                    <br>
                     <div class="col text-center">
                         <button class="btn btn-primary">Download</button>
                     </div>
@@ -140,11 +239,15 @@
             </div>
             <div class="card mt-4">
                 <div class="text-center">
-                
-                <img class="card-img-top" src="b7.jpg" alt="Card image cap" style="height:250px; width:200px; margin-top:20px;">
+                        <a href="Mandala.html">
+                <img class="card-img-top" src="Images/b7.jpg" alt="Card image cap" style="height:250px; width:200px; margin-top:20px;"></a>
             </div>
             <div class="card-body">
-                <h5 class="card-title text-center">Long Walk To Freedom (Nelson Mandala) <i onclick="myFunction(this)" class="fa fa-star"></i></h5>
+                <h5 class="card-title text-center">Long Walk To Freedom (Nelson Mandala) 
+                        <span data-toggle="tooltip" title="Save for later">
+                    <i onclick="bookmark(this)" class="fa fa-bookmark-o"></i></span>
+                </h5>
+                <br>
                 <div class="col text-center">
                     <button class="btn btn-primary">Download</button>
                 </div>
@@ -152,12 +255,17 @@
             </div>
         </div>
         <div class="card mt-4">
+                
             <div class="text-center">
-                <img class="card-img-top" src="b8.jpg" alt="Card image cap" style="height:250px; width:200px;margin-top:20px;">
+                <a href="Malala.html"><img class="card-img-top" src="Images/b8.jpg" alt="Card image cap" style="height:250px; width:200px;margin-top:20px;"></a>
             </div>
+        
             <div class="card-body">
-                <h5 class="card-title text-center">I am Malala <i onclick="myFunction(this)" class="fa fa-star"></i> <i onclick="bookmark(this)" class="fa fa-bookmark-o"></i>
+                <h5 class="card-title text-center">I am Malala 
+                        <span data-toggle="tooltip" title="Save for later">
+                    <i onclick="bookmark(this)" class="fa fa-bookmark-o"></i></span>
                 </h5>
+                <br>
                 <div class="col text-center">
                     <button class="btn btn-primary">Download</button>
                 </div>

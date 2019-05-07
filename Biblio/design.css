@@ -1,6 +1,6 @@
 
 .bg{
-    background-image: url('../Biblio/sb.jpg');
+    background-image: url('../Biblio/Images/sb.jpg');
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
@@ -8,7 +8,127 @@
     max-width: 100%;
 }
 .ab{
-    background-image: url('../Biblio/pp.jpg');
+    background-image: url('../Biblio/Images/pp.jpg');
     background-repeat: no-repeat; 
     height: 400px;
 }
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 20px;
+  border: none;
+  border-bottom: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border-bottom: 3px solid #555;
+}
+textarea {
+    width: 64%;
+    height: 150px;
+    padding: 10px 20px;
+    margin: 8px 20px;
+    border: none;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  textarea:focus {
+    border: 3px solid #555;
+  }
+
+
+  .rating {
+    float:left;
+    padding-left:10px;
+}
+.rating:not(:checked) > span {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:160%;
+    line-height:1.2;
+    color:grey;
+}
+
+.rating:not(:checked) > span:before {
+  content: '★ ';
+}
+
+
+.rating > span.checked ~ span {
+  color: gold;
+  text-shadow:1px 1px goldenrod, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > span.checked  {
+  color: gold;
+  text-shadow:1px 1px goldenrod, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > span:hover ~ span {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+} 
+
+
+.rating > span.checked + span:hover,
+    .rating > span.checked + span:hover ~ span,
+    .rating > span.checked ~ span:hover,
+    .rating > span.checked ~ span:hover ~ span,
+    .rating > span:hover ~ span.checked ~ span {
+      color: gold;
+      text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+    }
+    /* div.text-center span 
+    {
+      display: none; 
+      position: absolute;
+      top:50%;
+      right: 100%; 
+       width:120px;
+       background: #333;
+        color: #fff; 
+      }
+    div.text-center:hover span 
+    {
+      display: block; 
+    } */
+
+    div.text-center .ttip {
+      visibility: hidden;
+      width: 300px;
+      height: 300px;
+      background-color:white;
+      color:black;
+      text-align: center;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+      top: 10px;
+      left: 95%;
+      border-width: 2px;
+      border-style: solid;
+      border-color: black ;
+    }
+    
+    div.text-center .ttip::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 100%;
+      margin-top: -10px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent black transparent transparent;
+    }
+    div.text-center:hover .ttip {
+      visibility: visible;
+    }
